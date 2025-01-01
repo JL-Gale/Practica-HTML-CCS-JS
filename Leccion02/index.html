@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--Tipos de titulos van del 1 al 6-->
     <!--Solo debe existir un solo h1 en toda la pagina-->
-    <h1>Titulo h1</h1>
+    <h1>Pagina principal</h1>
     <!--
     <h2>Titulo h2</h2>
     <h3>Titulo h3</h3>
@@ -17,14 +17,51 @@
     <h6>Titulo h6</h6>
     -->
 
-    <!--La etiqueta p sirve para hacer parrafos y la etiqueta br sirve para hacer un salta de linea entre el mismo parrafo-->
-    <p>Primera linea del parrafo <br> Segunda linea del parrafo</p>
+    <!--La etiqueta <p> sirve para hacer parrafos y la etiqueta <br> sirve para hacer un salta de linea entre el mismo parrafo-->
+    <p>
+      Primera linea del parrafo <br />
+      Segunda linea del parrafo
+    </p>
 
-    <p>Parrafo 1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium perferendis sequi non! Maxime veniam non repellendus omnis corporis aut dolorum <br/> laborum ipsam laudantium deleniti, a, expedita inventore ipsum, ipsa aspernatur!</p>
+    <p>
+      Parrafo 1 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      Laudantium perferendis sequi non! Maxime veniam non repellendus omnis
+      corporis aut dolorum <br />
+      laborum ipsam laudantium deleniti, a, expedita inventore ipsum, ipsa
+      aspernatur!
+    </p>
 
-    <!--La etiqueta hr (horizontal rule) hace que aparezca una linea orizontal que separa el contenido-->
-    <hr>
-    <p>Parrafo 2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium perferendis sequi non! Maxime veniam non repellendus omnis corporis aut dolorum laborum ipsam laudantium deleniti, a, expedita inventore ipsum, ipsa aspernatur!</p>
+    <!--La etiqueta <hr> (horizontal rule) hace que aparezca una linea orizontal que separa el contenido-->
+    <hr />
+    <p>
+      Parrafo 2 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      Laudantium perferendis sequi non! Maxime veniam non repellendus omnis
+      corporis aut dolorum laborum ipsam laudantium deleniti, a, expedita
+      inventore ipsum, ipsa aspernatur!
+    </p>
 
-</body>
+    <!--La etiqueta <a> sirve para poner links en la pagina-->
+    <!--El atributo href es donde va la referencia a la pagina web y el atributo target _blank es para que la pagina se habra en una neuva pestaña-->
+    <a href="https://github.com/JL-Gale" target="_blank"
+      >Repositorio de github</a
+    >
+    <br />
+    <a href="https://sima.unicartagena.edu.co/my/" target="_blank"
+      >Plataforma de la universidad</a
+    >
+    <br />
+    <a href="pagina1.html">Pagina 1</a>
+    <br />
+
+    <!--La etiqueta img se utiliza para poner imagnes que pueden estar en local o en el internet-->
+    <img src="imagenes/html5.png" alt="Logo html" width="100px" title="Logo html"/>
+    <!--El atributo src es donde va la ruta o el link de la de la imagen y el atributo alt es un texto alternativo que en caso de que no se cargue la imagen muestre el texto-->
+    <img src="imagenes/css3.png" alt="Logo css" width="100px" title="Logo css"/>
+    <!--Tambien puede tener atributo como width que mofica el ancho y height que modifica el alto-->
+    <img src="imagenes/javascript.png" alt="Logo js" width="100px" title="Logo js"/>
+    <!--Title es un atributo que se usa para dar mas informacion-->
+    <p title="Parrafo Lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus inventore officia suscipit! Iusto aspernatur, tempora sint tenetur modi error, ipsa eum molestias voluptate magni saepe eaque quasi accusamus consequuntur! Quod.</p>
+    <!--El atributo style funciona para dar estilo con css desde el html-->
+    <p style="color: red; font-size: 50px; font-family: Arial, Helvetica, sans-serif;" title="Parrafo con estilo aplicado"><b>Parrafo con estilos</b></p>
+  </body>
 </html>
