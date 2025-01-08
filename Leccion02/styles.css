@@ -1,12 +1,24 @@
 h1{
     color: red;
+    text-align: center;
 }
 
 p{
+    text-align: justify;
     color: black;
     background-color: rgba(128, 128, 128, 0.1);
+    padding: 15px;
+    border: 10px solid red;
+    margin: 40px;
+    border-radius: 14px;
 }
 
 a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border: 10px solid blue;
+    background-color: blue;
     text-decoration: none;
+    color: white;
+    border-radius: 10px;
 }
