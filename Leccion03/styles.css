@@ -23,4 +23,28 @@ a:active {
 
 img {
     width: 50px;
+    margin-bottom: 10px;
+}
+
+#github:link, #github:visited {
+    background-color: rgb(138, 43, 226);
+    color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#github:hover {
+    background-color: rgb(178, 124, 230);
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#github:active {
+    background-color: rgb(178, 124, 230);
+    color: black;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
 }
