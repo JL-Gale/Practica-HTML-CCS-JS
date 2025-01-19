@@ -1,0 +1,22 @@
+h1 {
+    color: brown;
+}
+
+a:link{
+    font-size: 50px;
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
